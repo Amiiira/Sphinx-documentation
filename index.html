@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Advanced Calculator &#8212; Advanced Calculator today documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=bda64df8"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <hr class="docutils" />
+<section id="advanced-calculator">
+<h1>Advanced Calculator<a class="headerlink" href="#advanced-calculator" title="Link to this heading">¶</a></h1>
+<p>Welcome to the documentation for the Advanced Calculator!</p>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+<p>The Advanced Calculator is a feature-rich calculator that supports various mathematical operations, including addition, subtraction, multiplication, division, exponentiation, square root, and more.</p>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading">¶</a></h2>
+<p>To use the calculator, follow these steps:</p>
+<ol class="arabic">
+<li><p>Create an instance of the AdvancedCalculator class:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span> <span class="o">=</span> <span class="n">AdvancedCalculator</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+<li><p>Perform operations using the available methods:</p>
+<ul>
+<li><p>Addition:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Subtraction:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Multiplication:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Division:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Exponentiation:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Square Root:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">square_root</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+<li><p>Clear:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+<li><p>Check the current result:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Current result: </span><span class="si">{</span><span class="n">calculator</span><span class="o">.</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The result is automatically updated after each operation.</p>
+</li>
+</ol>
+</section>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Link to this heading">¶</a></h2>
+<p>Here is a simple example of using the Advanced Calculator:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">calculator</span> <span class="o">=</span> <span class="n">AdvancedCalculator</span><span class="p">()</span>
+<span class="n">calculator</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">calculator</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">calculator</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Final result: </span><span class="si">{</span><span class="n">calculator</span><span class="o">.</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This will output:
+Current result: 7.5
+Final result: 7.5</p>
+<p>For more details, refer to the source code and method descriptions.</p>
+</section>
+<section id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Link to this heading">¶</a></h2>
+<p>The Advanced Calculator provides the following methods:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add(x)</span></code>: Adds the given number to the current result.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">subtract(x)</span></code>: Subtracts the given number from the current result.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">multiply(x)</span></code>: Multiplies the current result by the given number.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">divide(x)</span></code>: Divides the current result by the given number.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">power(x)</span></code>: Raises the current result to the power of the given number.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">square_root()</span></code>: Calculates the square root of the current result.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clear()</span></code>: Resets the current result to zero.</p></li>
+</ul>
+<p>Thank you for using the Advanced Calculator!</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Advanced Calculator</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;1980, Amira.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
