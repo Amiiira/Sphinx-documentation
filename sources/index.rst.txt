@@ -1,0 +1,112 @@
+.. Advanced Calculator Documentation
+======================================
+
+Advanced Calculator
+--------------------
+
+Welcome to the documentation for the Advanced Calculator!
+
+Overview
+~~~~~~~~
+
+The Advanced Calculator is a feature-rich calculator that supports various mathematical operations, including addition, subtraction, multiplication, division, exponentiation, square root, and more.
+
+Usage
+~~~~~
+
+To use the calculator, follow these steps:
+
+1. Create an instance of the AdvancedCalculator class:
+
+   .. code-block:: python
+
+      calculator = AdvancedCalculator()
+
+2. Perform operations using the available methods:
+
+   - Addition:
+
+     .. code-block:: python
+
+        calculator.add(number)
+
+   - Subtraction:
+
+     .. code-block:: python
+
+        calculator.subtract(number)
+
+   - Multiplication:
+
+     .. code-block:: python
+
+        calculator.multiply(number)
+
+   - Division:
+
+     .. code-block:: python
+
+        calculator.divide(number)
+
+   - Exponentiation:
+
+     .. code-block:: python
+
+        calculator.power(number)
+
+   - Square Root:
+
+     .. code-block:: python
+
+        calculator.square_root()
+
+   - Clear:
+
+     .. code-block:: python
+
+        calculator.clear()
+
+3. Check the current result:
+
+   .. code-block:: python
+
+      print(f"Current result: {calculator.result}")
+
+   The result is automatically updated after each operation.
+
+Example
+~~~~~~~
+
+Here is a simple example of using the Advanced Calculator:
+
+.. code-block:: python
+
+   calculator = AdvancedCalculator()
+   calculator.add(5)
+   calculator.multiply(3)
+   calculator.divide(2)
+   print(f"Final result: {calculator.result}")
+
+This will output:
+Current result: 7.5
+Final result: 7.5
+
+
+For more details, refer to the source code and method descriptions.
+
+Methods
+~~~~~~~
+
+The Advanced Calculator provides the following methods:
+
+- ``add(x)``: Adds the given number to the current result.
+- ``subtract(x)``: Subtracts the given number from the current result.
+- ``multiply(x)``: Multiplies the current result by the given number.
+- ``divide(x)``: Divides the current result by the given number.
+- ``power(x)``: Raises the current result to the power of the given number.
+- ``square_root()``: Calculates the square root of the current result.
+- ``clear()``: Resets the current result to zero.
+
+
+
+Thank you for using the Advanced Calculator!
